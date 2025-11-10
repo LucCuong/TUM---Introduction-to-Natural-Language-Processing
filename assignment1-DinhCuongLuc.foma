@@ -1,5 +1,5 @@
 ! Read the lexicon definition file
-read lexc assignment1-YourName.lexc
+read lexc assignment1-DinhCuongLuc.lexc
 
 ! Define orthographic (spelling) rules
 
@@ -14,4 +14,5 @@ define RemoveHat "^" -> 0;
 define Net Root .o. EDeletion .o. RemoveHat;
 
 ! Compile and activate the network
+
 regex Net;
