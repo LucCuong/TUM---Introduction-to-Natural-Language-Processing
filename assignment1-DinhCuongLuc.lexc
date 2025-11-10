@@ -1,4 +1,4 @@
-Multichar_Symbols +N +V +ADJ +3P +Sg +Pl -ion -or -able -ity ;
+Multichar_Symbols +N +V +ADJ +3P +Sg +Pl -ion -or -able -ity
 
 LEXICON Root
 Verbs ;
@@ -29,4 +29,5 @@ LEXICON Adj
 -ity +N     : ^ity NNoPl ;  ! derive noun with -ity, no plural forms
 
 LEXICON NNoPl
+
 0 : 0 # ;
