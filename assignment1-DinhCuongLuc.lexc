@@ -1,0 +1,32 @@
+Multichar_Symbols +N +V +ADJ +3P +Sg +Pl -ion -or -able -ity ;
+
+LEXICON Root
+Verbs ;
+
+LEXICON Verbs
+translate +V : translate VForms Deriv ;
+predict   +V : predict   VForms Deriv ;
+
+! 1.1: simple verb inflection (bare and 3rd person singular)
+LEXICON VForms
+0        : 0 # ;
++3P+Sg   : s # ;
+
+! 1.2: nominalization with -ion and -or (with singular and plural)
+!       use ^ as a morpheme boundary marker (for spelling rules)
+LEXICON Deriv
+-ion +N : ^ion NInfl ;
+-or  +N : ^or  NInfl ;
+-able +ADJ : ^able Adj ;    ! 1.3: adjectivization with -able
+
+LEXICON NInfl
++Sg : 0 # ;
++Pl : s # ;
+
+! 1.4: nominalization from adjective with -ity (no plural allowed)
+LEXICON Adj
+0           : 0   # ;       ! allow stopping at ADJ (translatable/predictable)
+-ity +N     : ^ity NNoPl ;  ! derive noun with -ity, no plural forms
+
+LEXICON NNoPl
+0 : 0 # ;

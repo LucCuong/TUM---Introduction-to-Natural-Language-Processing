@@ -1,0 +1,17 @@
+! Read the lexicon definition file
+read lexc assignment1-YourName.lexc
+
+! Define orthographic (spelling) rules
+
+! (A) Delete final 'e' before suffixes beginning with a vowel (ion/or/able/ity)
+!     Example: translate^ion → translation; translate^able → translatable; translate^or → translator
+define EDeletion e -> 0 || _ "^" [i | o | a];
+
+! (B) Remove the boundary marker '^' after all transformations
+define RemoveHat "^" -> 0;
+
+! Compose the final network (lexicon + spelling rules)
+define Net Root .o. EDeletion .o. RemoveHat;
+
+! Compile and activate the network
+regex Net;
