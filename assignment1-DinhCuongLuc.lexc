@@ -15,10 +15,12 @@ LEXICON Vinf
 +V-or:^or SgPl;
 +V-ion:^ion SgPl;
 +V-able+ADJ:^able #;
++V-able+ADJ-ity+N:^ability #;
 
 LEXICON SgPl
 +N+Pl:^s             #;
 +N+Sg:0             #;
+
 
 
 
