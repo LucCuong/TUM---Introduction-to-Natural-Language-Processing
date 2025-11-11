@@ -8,8 +8,9 @@ define Cleanup "^" -> 0;
 
 regex Lexicon           .o.
       EInsertion        .o.
-      ERemove;          .o.
+      ERemove           .o.
       Cleanup;
+
 
 
 
