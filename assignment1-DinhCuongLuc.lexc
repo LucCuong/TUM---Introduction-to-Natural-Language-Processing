@@ -1,6 +1,7 @@
-Multichar_Symbols +N +V +PastPart + Past + PresPart +ADJ +3P +Sg +Pl -ion -or -able -ity
+Multichar_Symbols +N +V +PastPart + Past + PresPart +ADJ +3P +Sg +Pl -ion -or
 
 LEXICON Root
+Noun;
 Verb;
 
 ! Assignment 1.1
@@ -10,10 +11,19 @@ predict   Vinf;
 
 ! 1.1: simple verb inflection (bare and 3rd person singular)
 LEXICON Vinf
-+V:0             #;
++V:0              #;
 +V+3P+Sg:^s       #;
 
 
+!1.2: Nominalization
+LEXICON Noun
+translate Ninf;
+predict   Ninf;
 
-
-
+LEXICON Ninf
++V:^               #;
+-or: or^           #;
+ion: ion^          #;
++N:^               #;
++Pl: s             #;
++Sg: 0             #;
