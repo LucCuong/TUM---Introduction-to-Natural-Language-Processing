@@ -1,4 +1,4 @@
-Multichar_Symbols +N +V +PastPart + Past + PresPart +ADJ +3P +Sg +Pl -ion -or
+Multichar_Symbols +N +V +ADJ +3P +Sg +Pl -ion -or
 
 LEXICON Root
 Verb;
@@ -12,9 +12,13 @@ predict   Vinf;
 LEXICON Vinf
 +V:0              #;
 +V+3P+Sg:^s       #;
--or: or^           #;
-ion: ion^          #;
+
+
+!1.2: Nominalization
+-or: ^or           #;
+-ion: ^ion          #;
 +N:0               #;
 +Pl: ^s             #;
 +Sg: 0             #;
+
 
