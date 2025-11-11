@@ -5,7 +5,11 @@ define EInsertion t -> e || a t _ "^" s;
 define Cleanup "^" -> 0;
 
 define Lexicon;
-regex Lexicon;
+
+regex Lexicon           .o.
+      EInsertion        .o.
+      Cleanup;
+
 
 
 
