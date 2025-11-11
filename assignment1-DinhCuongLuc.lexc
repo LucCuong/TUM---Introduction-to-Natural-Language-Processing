@@ -15,10 +15,12 @@ LEXICON Vinf
 
 
 !1.2: Nominalization
--or: ^or           #;
--ion: ^ion          #;
-+N:0               #;
-+Pl: ^s             #;
-+Sg: 0             #;
++V-or: ^or SgPl;
++V-ion: ^ion SgPl;
+
+LEXICON SgPl
++N+Pl: ^s             #;
++N+Sg: 0             #;
+
 
 
