@@ -2,7 +2,7 @@
 read lexc assignment1-DinhCuongLuc.lexc
 define Lexicon;
 
-define EInsertion [..] -> e || a t _ "^" s;
+!define EInsertion [..] -> e || a t _ "^" s;
 
 define ERemove e -> 0 || t _ "^" ( o r | i o n ) ,,
                e -> 0 || t _ a b ;
@@ -13,6 +13,7 @@ regex Lexicon           .o.
       EInsertion        .o.
       ERemove           .o.
       Cleanup;
+
 
 
 
