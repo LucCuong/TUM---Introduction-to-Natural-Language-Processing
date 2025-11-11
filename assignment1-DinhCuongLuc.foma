@@ -8,8 +8,9 @@ define ERemove e -> 0 || t _ "^";
 
 regex Lexicon           .o.
       EInsertion        .o.
-      ERemove;
-!      Cleanup;
+      ERemove;          .o.
+      Cleanup;
+
 
 
 
