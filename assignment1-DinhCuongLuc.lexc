@@ -1,4 +1,4 @@
-Multichar_Symbols +N +V +ADJ +3P +Sg +Pl -ion -or
+Multichar_Symbols +N +V +ADJ +3P +Sg +Pl -ion -or -able
 
 LEXICON Root
 Verb;
@@ -14,10 +14,12 @@ LEXICON Vinf
 +V+3P+Sg:^s       #;
 +V-or:^or SgPl;
 +V-ion:^ion SgPl;
++V-able+ADJ:^able #;
 
 LEXICON SgPl
 +N+Pl:^s             #;
 +N+Sg:0             #;
+
 
 
 
