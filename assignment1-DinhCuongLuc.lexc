@@ -11,7 +11,7 @@ predict   Vinf;
 ! 1.1: simple verb inflection (bare and 3rd person singular)
 LEXICON Vinf
 +V:0             #;
-+V+3P+Sg:^s      #;
++V+3P+Sg:s       #;
 
 ! 1.2: nominalization with -ion and -or (with singular and plural)
 !       use ^ as a morpheme boundary marker (for spelling rules)
@@ -32,4 +32,6 @@ LEXICON Adj
 LEXICON NNoPl
 
 0 : 0 # ;
+
+
 
