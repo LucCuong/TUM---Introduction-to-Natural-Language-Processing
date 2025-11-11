@@ -12,15 +12,13 @@ predict   Vinf;
 LEXICON Vinf
 +V:0              #;
 +V+3P+Sg:^s       #;
-
-
-!1.2: Nominalization
-+V-or: ^or SgPl;
-+V-ion: ^ion SgPl;
++V-or:^or SgPl;
++V-ion:^ion SgPl;
 
 LEXICON SgPl
-+N+Pl: ^s             #;
-+N+Sg: 0             #;
++N+Pl:^s             #;
++N+Sg:0             #;
+
 
 
 
