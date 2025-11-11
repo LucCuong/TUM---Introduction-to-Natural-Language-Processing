@@ -4,12 +4,13 @@ define Lexicon;
 
 define EInsertion [..] -> e || a t _ "^" s;
 define ERemove e -> 0 || t _ "^";
-!define Cleanup "^" -> 0;
+define Cleanup "^" -> 0;
 
 regex Lexicon           .o.
       EInsertion        .o.
       ERemove;          .o.
       Cleanup;
+
 
 
 
