@@ -1,7 +1,6 @@
 Multichar_Symbols +N +V +PastPart + Past + PresPart +ADJ +3P +Sg +Pl -ion -or
 
 LEXICON Root
-Noun;
 Verb;
 
 ! Assignment 1.1
@@ -13,17 +12,9 @@ predict   Vinf;
 LEXICON Vinf
 +V:0              #;
 +V+3P+Sg:^s       #;
-
-
-!1.2: Nominalization
-LEXICON Noun
-translate Ninf;
-predict   Ninf;
-
-LEXICON Ninf
-+V:^               #;
 -or: or^           #;
 ion: ion^          #;
-+N:^               #;
-+Pl: s             #;
++N:0               #;
++Pl: ^s             #;
 +Sg: 0             #;
+
