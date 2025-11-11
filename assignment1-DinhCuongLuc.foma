@@ -1,15 +1,16 @@
 ! Read the lexicon definition file
 read lexc assignment1-DinhCuongLuc.lexc
+define Lexicon;
 
 define EInsertion [..] -> e || a t _ "^" s;
+define ERemove e -> 0 || t _ [ or | ion ];
 define Cleanup "^" -> 0;
-define ERemove e -> 0 || t _ [ or | ion ]
-define Lexicon;
 
 regex Lexicon           .o.
       EInsertion        .o.
       ERemove           .o.
       Cleanup;
+
 
 
 
