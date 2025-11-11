@@ -10,9 +10,9 @@ define ERemove e -> 0 || t _ "^" ( o r | i o n ) ,,
 define Cleanup "^" -> 0;
 
 regex Lexicon           .o.
-      EInsertion        .o.
       ERemove           .o.
       Cleanup;
+
 
 
 
