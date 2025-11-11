@@ -8,7 +8,9 @@ define Lexicon;
 
 regex Lexicon           .o.
       EInsertion        .o.
+      ERemove           .o.
       Cleanup;
+
 
 
 
