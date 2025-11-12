@@ -5,10 +5,11 @@ define Lexicon;
 define EInsertion [..] -> e || b | c | d | f | g | h | k | l | m | n | p | q | r | s | t | v | w | x | y | z _ "^" h i;
 define LInsertion [..] -> l || a | o | u | e | i _ "^" i l;
 
-!define Cleanup "^" -> 0;
+define Cleanup "^" -> 0;
 
-regex Lexicon           .o.
-      EInsertion           .o.
-      LInsertion;
-!      Cleanup;
+regex Lexicon         .o.
+      EInsertion       .o.
+      LInsertion      .o.
+      Cleanup;
+
 
