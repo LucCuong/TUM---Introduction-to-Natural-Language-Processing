@@ -2,8 +2,10 @@
 read lexc assignment3-DinhCuongLuc.lexc
 define Lexicon;
 
+define ENDelete  e n -> 0 || _ "^" t;
 
 define Cleanup "^" -> 0;
 
 regex Lexicon         .o.
+      ENDelete        .o.
       Cleanup;
