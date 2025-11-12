@@ -1,5 +1,5 @@
 Multichar_Symbols +Noun+Masc +Noun+Fem +Verb +Pres +Past +Fut
-+Sg +Pl Neg+ +Adj+Comp +Adj+Sup
++Sg +Pl Neg+ +Adj +Comp +Sup
 
 Definitions
 VerbStem = [ {rag} | {veg} | {kise} | {lige} ] ;
@@ -31,17 +31,21 @@ rag    Vinf;
 veg    Vinf;
 kise   Vinf;
 lige   Vinf;
+< 0:{na} VerbStem 0:{na} > Adj;
 
 LEXICON Vinf
 +Verb+Past:^hi #;
 +Verb+Pres:0 #;
 +Verb+Fut:^il #;
-+Adj:< 0:{na} VerbStem 0:{na} >;
-+Adj+Comp:be#;
-+Adj+Sup:ke#;
++Adj:AddAdj;
 
 
+LEXICON AddAdj
+< 0:{na} VerbStem 0:{na} > ComSup;
 
+LEXICON ComSup
++Comp:be#;
++Sup:ke#;
 
 
 
