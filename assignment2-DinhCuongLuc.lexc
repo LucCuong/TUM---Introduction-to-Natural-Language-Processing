@@ -41,7 +41,7 @@ LEXICON Vinf
 +Verb+Fut:^il #;
 
 LEXICON AdjPrefix
-+Adj:na AdjStem;
+0:na AdjStem;
 
 LEXICON AdjStem
 0:0 AdjMid;
@@ -52,6 +52,7 @@ LEXICON AdjMid
 LEXICON AdjSuffix
 +Adj+Comp:be #;
 +Adj+Sup:ke #;
+
 
 
 
