@@ -4,13 +4,14 @@ define Lexicon;
 
 define ERemove e -> 0 || t _ "^" o r ,,
                e -> 0 || t _ "^" i o n ,,
-               e -> 0 || t _ a b ;
+               e -> 0 || t _ "^" a b ;
 
 define Cleanup "^" -> 0;
 
 regex Lexicon           .o.
       ERemove           .o.
       Cleanup;
+
 
 
 
