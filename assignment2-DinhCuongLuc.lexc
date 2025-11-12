@@ -31,7 +31,6 @@ rag    Vinf;
 veg    Vinf;
 kise   Vinf;
 lige   Vinf;
-< 0:{na} VerbStem 0:{na} > Adj;
 
 LEXICON Vinf
 +Verb+Past:^hi #;
@@ -41,11 +40,12 @@ LEXICON Vinf
 
 
 LEXICON AddAdj
-< 0:{na} VerbStem 0:{na} > ComSup;
+0:< 0:{na} VerbStem 0:{na} > ComSup;
 
 LEXICON ComSup
 +Comp:be#;
 +Sup:ke#;
+
 
 
 
