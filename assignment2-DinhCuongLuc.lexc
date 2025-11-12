@@ -8,3 +8,19 @@ LEXICON Root
 Nouns ;
 Verbs ;
 VerbPref ;
+
+LEXICON Nouns
+topo   Ninf;
+gran   Ninf;
+isna   Ninf;
+peco   Ninf;
+
+LEXICON Ninf
++Noun+Fem:
+
+
+LEXICON Verbs
+rag    Vinf;
+veg    Vinf;
+kise   Vinf;
+lige   Vinf;
