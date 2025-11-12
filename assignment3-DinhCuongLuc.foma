@@ -10,4 +10,5 @@ regex Lexicon         .o.
       ENDelete        .o.
       Cleanup;
 
-!Passed basic tests
+set flag-is-epsilon ON;
+
