@@ -1,0 +1,9 @@
+! Read the lexicon definition file
+read lexc assignment3-DinhCuongLuc.lexc
+define Lexicon;
+
+
+define Cleanup "^" -> 0;
+
+regex Lexicon         .o.
+      Cleanup;
