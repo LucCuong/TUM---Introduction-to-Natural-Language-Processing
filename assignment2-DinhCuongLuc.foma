@@ -2,3 +2,7 @@
 read lexc assignment2-DinhCuongLuc.lexc
 define Lexicon;
 
+
+regex Lexicon;
+
+
