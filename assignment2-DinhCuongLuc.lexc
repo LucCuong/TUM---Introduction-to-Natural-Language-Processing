@@ -23,11 +23,19 @@ LEXICON SgPl
 +Pl:fi             #;
 +Sg:0             #;
 
+LEXICON VerbPref
+Neg+:mon Verbs
+
 LEXICON Verbs
 rag    Vinf;
 veg    Vinf;
 kise   Vinf;
 lige   Vinf;
+
+LEXICON Vinf
++Verb+Past: 0 #;
+
+
 
 
 
