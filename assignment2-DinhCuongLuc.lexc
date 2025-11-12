@@ -1,4 +1,4 @@
-Multichar_Symbols +Noun+Masc +Noun+Fem +Verb +Pres +Past +Fut +Sg +Pl Neg+ +Adj +Comp +Sup
+Multichar_Symbols +Noun+Masc +Noun+Fem +Verb +Pres +Past +Fut +Sg +Pl Neg+ +Adj+Comp +Adj+Sup
 
 Definitions
 VerbStem = [ {rag} | {veg} | {kise} | {lige} ] ;
@@ -26,20 +26,33 @@ LEXICON VerbPref
 Neg+:mon Verbs;
 
 LEXICON Verbs
-rag    Vinf;
-veg    Vinf;
-kise   Vinf;
-lige   Vinf;
+rag    VInfAdj;
+veg    VInfAdj;
+kise   VInfAdj;
+lige   VInfAdj;
+
+LEXICON VInfAdj      
+Vinf;
+AdjPrefix;           
 
 LEXICON Vinf
 +Verb+Past:^hi #;
 +Verb+Pres:0 #;
 +Verb+Fut:^il #;
-+Adj:0 < 0:{na} VerbStem 0:{na} >   ComSup;;
 
-LEXICON ComSup
-+Comp:be #;
-+Sup:ke #;
+LEXICON AdjPrefix    
++Adj:na AdjStem;
+
+LEXICON AdjStem      
+0:0 AdjMid;
+
+LEXICON AdjMid       
+0:na AdjSuffix;
+
+LEXICON AdjSuffix
++Adj+Comp:be #;
++Adj+Sup:ke #;
+
 
 
 
