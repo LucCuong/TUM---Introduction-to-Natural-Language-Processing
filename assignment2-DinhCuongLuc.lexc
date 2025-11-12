@@ -24,7 +24,7 @@ LEXICON SgPl
 +Sg:0             #;
 
 LEXICON VerbPref
-Neg+:mon Verbs
+Neg+:mon Verbs;
 
 LEXICON Verbs
 rag    Vinf;
@@ -39,6 +39,7 @@ LEXICON Vinf
 +Adj:< 0:{na} VerbStem 0:{na} >;
 +Adj+Comp:be#;
 +Adj+Sup:ke#;
+
 
 
 
