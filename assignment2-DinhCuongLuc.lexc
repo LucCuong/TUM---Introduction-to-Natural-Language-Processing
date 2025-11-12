@@ -1,0 +1,10 @@
+Multichar_Symbols +Noun+Masc +Noun+Fem +Verb +Pres +Past +Fut
++Sg +Pl Neg+ +Adj+Comp +Adj+Sup
+
+Definitions
+VerbStem = [ {rag} | {veg} | {kise} | {lige} ] ;
+
+LEXICON Root
+Nouns ;
+Verbs ;
+VerbPref ;

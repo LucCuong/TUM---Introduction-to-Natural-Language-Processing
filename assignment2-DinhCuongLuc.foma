@@ -1,0 +1,4 @@
+! Read the lexicon definition file
+read lexc assignment2-DinhCuongLuc.lexc
+define Lexicon;
+
