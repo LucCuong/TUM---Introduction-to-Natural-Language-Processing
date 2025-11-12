@@ -35,15 +35,16 @@ LEXICON Vinf
 +Verb+Past:^hi #;
 +Verb+Pres:0 #;
 +Verb+Fut:^il #;
-+Adj:0 AddAdj;
++Adj:AddAdj;
 
 
 LEXICON AddAdj
-< 0:{na} VerbStem 0:{na} > ComSup;
+< 0:{na} VerbStem 0:{na} >   ComSup;
 
 LEXICON ComSup
-+Comp:be#;
-+Sup:ke#;
++Comp:be #;
++Sup:ke #;
+
 
 
 
