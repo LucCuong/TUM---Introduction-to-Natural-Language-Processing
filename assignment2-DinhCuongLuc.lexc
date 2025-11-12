@@ -1,5 +1,4 @@
-Multichar_Symbols +Noun+Masc +Noun+Fem +Verb +Pres +Past +Fut
-+Sg +Pl Neg+ +Adj +Comp +Sup
+Multichar_Symbols +Noun+Masc +Noun+Fem +Verb +Pres +Past +Fut +Sg +Pl Neg+ +Adj +Comp +Sup
 
 Definitions
 VerbStem = [ {rag} | {veg} | {kise} | {lige} ] ;
@@ -45,6 +44,7 @@ LEXICON AddAdj
 LEXICON ComSup
 +Comp:be#;
 +Sup:ke#;
+
 
 
 
