@@ -33,7 +33,12 @@ kise   Vinf;
 lige   Vinf;
 
 LEXICON Vinf
-+Verb+Past: 0 #;
++Verb+Past:^hi #;
++Verb+Pres:0 #;
++Verb+Fut:^il #;
++Adj:< 0:{na} VerbStem 0:{na} >;
++Adj+Comp:be#;
++Adj+Sup:ke#;
 
 
 
