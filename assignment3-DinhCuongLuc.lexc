@@ -1,7 +1,7 @@
 Multichar_Symbols +V +Inf +3P VPart+ +PP an+ aus+
 
 LEXICON Root
-PreVerbs
+PreVerbs;
 
 LEXICON PreVerbs
 an+:an Verbs;
@@ -14,3 +14,4 @@ malen  VInf;
 LEXICON VInf
 +V+Inf:0  #;
 +V+3P:^t  #;
+
