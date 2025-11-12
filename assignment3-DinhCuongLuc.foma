@@ -9,3 +9,5 @@ define Cleanup "^" -> 0;
 regex Lexicon         .o.
       ENDelete        .o.
       Cleanup;
+
+!Passed basic tests
