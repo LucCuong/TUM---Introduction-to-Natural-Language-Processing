@@ -16,7 +16,8 @@ isna   Ninf;
 peco   Ninf;
 
 LEXICON Ninf
-+Noun+Fem:
++Noun+Fem:^la SgPl;
++Noun+Masc:^to SgPl;
 
 
 LEXICON Verbs
@@ -24,3 +25,4 @@ rag    Vinf;
 veg    Vinf;
 kise   Vinf;
 lige   Vinf;
+
