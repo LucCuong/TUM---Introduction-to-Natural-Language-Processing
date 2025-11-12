@@ -31,27 +31,28 @@ veg    VInfAdj;
 kise   VInfAdj;
 lige   VInfAdj;
 
-LEXICON VInfAdj      
+LEXICON VInfAdj
 Vinf;
-AdjPrefix;           
+AdjPrefix;
 
 LEXICON Vinf
 +Verb+Past:^hi #;
 +Verb+Pres:0 #;
 +Verb+Fut:^il #;
 
-LEXICON AdjPrefix    
+LEXICON AdjPrefix
 +Adj:na AdjStem;
 
-LEXICON AdjStem      
+LEXICON AdjStem
 0:0 AdjMid;
 
-LEXICON AdjMid       
+LEXICON AdjMid
 0:na AdjSuffix;
 
 LEXICON AdjSuffix
 +Adj+Comp:be #;
 +Adj+Sup:ke #;
+
 
 
 
