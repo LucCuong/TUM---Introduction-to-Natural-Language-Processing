@@ -1,29 +1,17 @@
-Multichar_Symbols +V +Inf +3P +PP +VPart an+ aus+
+Multichar_Symbols +V +Inf +3P VPart+ +PP an+ aus+
 
 LEXICON Root
-VerbPart ;
+PreVerbs;
 
-LEXICON VerbPart
-0 :0 Verbs ;     ! no particle
-an+ :an Verbs ;
-aus+ :aus Verbs ;
+LEXICON PreVerbs
+an+VPart+:an Verbs;
+aus+VPart+:aus Verbs;
+0:0 Verbs;
 
 LEXICON Verbs
-machen+V :mach VerbForms ;
-malen+V  :mal  VerbForms ;
+machen VInf;
+malen  VInf;
 
-LEXICON VerbForms
-+Inf :en # ;
-+3P  :t  # ;
-+PP  :0  PastPart ;
-
-LEXICON PastPart
-0 :ge Stems ;
-
-LEXICON Stems
-mach :mach PP_End ;
-mal  :mal  PP_End ;
-
-LEXICON PP_End
-0 :t # ;
-
+LEXICON VInf
++V+Inf:0  #;
++V+3P:^t  #;
