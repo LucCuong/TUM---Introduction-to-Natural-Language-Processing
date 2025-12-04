@@ -7,6 +7,8 @@ LEXICON Root
 Nouns ;
 Verbs ;
 VerbPref ;
+Adj ;
+AdjPref ;
 
 LEXICON Nouns
 topo   Ninf;
@@ -40,18 +42,16 @@ LEXICON Vinf
 +Verb+Pres:0 #;
 +Verb+Fut:^il #;
 
-LEXICON AdjPrefix
-0:na AdjStem;
+LEXICON AdjPref
+Neg+:mon Adj;
 
-LEXICON AdjStem
-0:0 AdjMid;
-
-LEXICON AdjMid
-0:na AdjSuffix;
+LEXICON Adj
+< 0:{na} VerbStem 0:{na} > AdjSuffix;
 
 LEXICON AdjSuffix
 +Adj+Comp:be #;
 +Adj+Sup:ke #;
+
 
 
 
