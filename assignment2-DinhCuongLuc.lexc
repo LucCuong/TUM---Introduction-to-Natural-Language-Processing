@@ -51,6 +51,8 @@ LEXICON Adj
 LEXICON AdjSuffix
 +Adj+Comp:be #;
 +Adj+Sup:ke #;
++Adj: #;
+
 
 
 
